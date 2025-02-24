@@ -75,6 +75,7 @@ export default function Portfolio() {
           <b>leading projects</b> from concept to launch. Strong knowledge of{" "}
           <b>Dart, Firebase, TypeScript, and REST APIs</b>. Passionate about
           creating <b>high-quality, user-centric</b> mobile solutions.
+          
         </p>
       </section>
 
