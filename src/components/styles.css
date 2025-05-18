@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  padding: 1.5rem; /* Equivalent to p-6 */
+  padding: 1rem; /* Equivalent to p-6 */
   max-width: 48rem; /* Equivalent to max-w-3xl */
   margin-left: auto; /* Equivalent to mx-auto */
   margin-right: auto; /* Equivalent to mx-auto */

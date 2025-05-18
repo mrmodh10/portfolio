@@ -16,6 +16,18 @@ const projects = [
     link: "https://mrmodh10.github.io/kushGold_Web/",
   },
   {
+    title: "Biotech Connect",
+    description:
+      "Biotech Connect is a biotech engagement app with product browsing, patient stories, and expert insights, trusted by 5,000+ users to bridge the gap between consumers and providers.",
+    link: "https://play.google.com/store/apps/details?id=com.biotech.biotechvision",
+  },
+  {
+    title: "PathQuest AP",
+    description:
+      "Accounts payable management app featuring real-time tracking, automated invoice management, and workflow optimization.",
+    link: "https://play.google.com/store/apps/details?id=com.pathquestap",
+  },
+  {
     title: "Quiz Empire",
     description:
       "Competitive real-money quiz game with leaderboards. Supports real-time multiplayer, custom challenges, and daily rewards.",
@@ -26,18 +38,6 @@ const projects = [
     description:
       "Educational and healthcare app utilizing a structured five-point scale to track goal attainment with data visualization and progress tracking.",
     link: "https://apps.apple.com/us/app/goal-scaling/id1560169255",
-  },
-  {
-    title: "PathQuest AP",
-    description:
-      "Accounts payable management app featuring real-time tracking, automated invoice management, and workflow optimization.",
-    link: "https://play.google.com/store/apps/details?id=com.pathquestap",
-  },
-  {
-    title: "Biotech Connect",
-    description:
-      "Biotech Connect is designed to enhance user interaction with biotech products, featuring product browsing,success stories from patients, and expert testimonials. The app aims to bridge the gap between consumers and providers in the biotech industry.",
-    link: "https://play.google.com/store/apps/details?id=com.biotech.biotechvision",
   },
 ];
 
@@ -68,19 +68,15 @@ export default function Portfolio() {
       <section>
         <h2>About Me</h2>
         <p className="textDecoration">
-          Results-driven <b>Flutter Developer</b> with <b>5+</b> years of
-          experience in cross-platform app development and{" "}
-          <b>1 year in React</b>. Proven expertise in building{" "}
-          <b>scalable applications</b>, <b>optimizing performance</b>, and{" "}
-          <b>leading projects</b> from concept to launch. Strong knowledge of{" "}
-          <b>Dart, Firebase, TypeScript, and REST APIs</b>. Passionate about
-          creating <b>high-quality, user-centric</b> mobile solutions.
+          I'm a <b>Flutter Developer by day, bug-squashing ninja by night</b>, with <b>5+ years of experience</b> turning coffee into scalable, high-performance, cross-platform apps. Whether it's <b>Flutter, Dart, Firebase, Supabase</b>, or decoding mysterious <b>REST APIs</b> at 2 AM — I speak them all fluently (with minimal crying).
+<p>I've helped launch everything from <b>scrappy MVPs to enterprise-grade monsters</b>, always thriving in <b>Agile, remote-first teams</b> where Wi-Fi and Git commits are sacred. I've taken multiple apps from <b>"just an idea" to "live on the app store"</b> — and yes, I still get excited every time I see a green checkmark in <b>CI/CD</b>.</p>
+<p>My hobbies include <b>refactoring perfectly working code</b>, fighting with state management (<b>Bloc, Cubit, StreamBuilder</b> — pick your fighter), and whispering sweet nothings to my <b>modular architecture</b> so it doesn’t break in production.</p>
           
         </p>
       </section>
-
+      <br/>
       <section>
-        <h2>Projects</h2>
+        <h2>Professional Projects with Real-World Impact</h2>
         <div className="projects">
           {projects.map((project, index) => (
             <Card key={index}>
@@ -101,12 +97,11 @@ export default function Portfolio() {
       </section>
 
       <section>
-        <h2>Resume</h2>
+        <h3>Resume</h3>
         <p className="textDecoration">
-          Master’s in <b>Computer Science</b> at <b>Western Michigan University</b>. Former
-          <b> React Developer Intern</b> at <b>Knight Watch Inc, Kalamazoo, USA</b>.
+          <b>M.S. in Computer Science</b> from <b>Western Michigan University</b>. Former <b>React Developer Intern</b> at <b>Knight Watch Inc.</b> and <b>Flutter Developer</b> at <b>CoHive LLC</b>.
         </p>
-        <a href="https://drive.google.com/file/d/1cPLiOhkJw0ggmp0vBiyBLTejeueMEX2f/view?usp=sharing" download>
+        <a href="https://drive.google.com/file/d/168d45VjoSNlm5qEIwpSF4kdWWrSUf6Fw/view?usp=sharing" download>
           <button className="button"><b>Download Resume</b></button>
         </a>
       </section>
