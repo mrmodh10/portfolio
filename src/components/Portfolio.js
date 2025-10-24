@@ -66,17 +66,29 @@ export default function Portfolio() {
       </header>
 
       <section>
-        <h2>About Me</h2>
-        <p className="textDecoration">
-          Results-driven <b>Flutter Developer</b> with <b>5+</b> years of
-          experience in cross-platform app development and{" "}
-          <b>1 year in React</b>. Proven expertise in building{" "}
-          <b>scalable applications</b>, <b>optimizing performance</b>, and{" "}
-          <b>leading projects</b> from concept to launch. Strong knowledge of{" "}
-          <b>Dart, Firebase, TypeScript, and REST APIs</b>. Passionate about
-          creating <b>high-quality, user-centric</b> mobile solutions.
-        </p>
-      </section>
+  <h2>About Me</h2>
+  <p className="textDecoration">
+    I'm a <b>Flutter Developer</b> by day and a <b>bug-squashing ninja</b> by night, 
+    with <b>5+ years</b> of experience turning coffee into scalable, high-performance, 
+    cross-platform apps. Whether it's <b>Flutter</b>, <b>Dart</b>, <b>Firebase</b>, 
+    <b>Supabase</b>, or decoding mysterious <b>REST APIs</b> at 2 AM — I speak them 
+    all fluently (with minimal crying).
+  </p>
+  <p className="textDecoration">
+    I've helped launch everything from scrappy MVPs to enterprise-grade monsters, 
+    always thriving in <b>Agile</b>, <b>remote-first teams</b> where Wi-Fi and Git commits 
+    are sacred. I've taken multiple apps from <b>"just an idea"</b> to 
+    <b>"live on the app store"</b> — and yes, I still get excited every time I see a 
+    green checkmark in <b>CI/CD</b>.
+  </p>
+  <p className="textDecoration">
+    My hobbies include refactoring perfectly working code, fighting with 
+    <b>state management</b> (<b>Bloc</b>, <b>Cubit</b>, <b>StreamBuilder</b> — pick your fighter), 
+    and whispering sweet nothings to my <b>modular architecture</b> so it doesn’t 
+    break in production.
+  </p>
+</section>
+
 
       <section>
         <h2>Projects</h2>
